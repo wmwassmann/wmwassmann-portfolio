@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  position: relative;
+  left: 20px;
+  font-size: 43px;
+  border-bottom: 5px solid grey;
+}
+
+.navbar-brand {
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    color: rgb(0, 160, 0);
+}
+
+.card {
+    border: slategray;
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    justify-content: center;
+    padding: 15pt;
+}
+
+.card-title {
+    background-color: rgb(150, 150, 150);
+    padding: 1%;
+    color:  rgb(133, 133, 133);
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-bar-custom {
+  background-color: rgb(143, 143, 143);
+}
+
+.img-fluid {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.card-img-top {
+    display: flex;
+    justify-content: center;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#aboutme {  
+    background-color: rgb(161, 161, 161);
+    margin-top: 30px;
+}
+
+#aboutme h1 {
+    border-bottom: solid silver;
+    padding-bottom: 10px;
+}
+
+
+#btn {
+    display: flex;
+    justify-content: center;
+    padding: 20pt;
+}
+
+.about {
+  border-left: solid silver;
+  background-color:white;
+  border-right: solid silver;
+  width:100px; 
+}
+
+.portfolio {
+  background-color:white;
+  color:white;
+  border-right: solid silver;
+  width:100px;
+}
+
+.contact {
+  background-color:white;
+  color: white;
+  border-right: solid silver;
+  width:100px;
+}
+.btn-primary {
+    background-color: rgb(173, 173, 173);
+    margin-bottom: 100pt;
+}
+
+/* #btn-info {
+    margin-bottom: 15pt;
+} */
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+.profile-pic {
+    margin: 30px;
+    border-bottom: 10px solid grey;
+    border-radius: 10px;
+}
+
+p {    
+    position: relative;
+    top: 20px;
+    margin: 10px;
+    width: 700px;
+}
+
+p2 {
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+  .fa-linkedin {
+    background-color: rgb(109, 109, 109);
+    color: white;
+  }  
+
+  .fa-github {
+      background: black;
+      color: white;
+  }
+  .fa-file {
+      background: black;
+      color: white;
+  }
+
+  .footer {
+    border-top: 8px solid rgb(163, 163, 163);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    text-align: center;
+  }
